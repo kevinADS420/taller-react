@@ -1,0 +1,28 @@
+.ContainerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+
+    .Menu{
+        display: flex;
+        color: black;
+        
+        .menu{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+
+

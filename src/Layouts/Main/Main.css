@@ -1,0 +1,71 @@
+.containerOne {
+    background: linear-gradient(to bottom,#3498db, #2ecc71) ;
+}
+
+.LookFor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bar {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        border: 0;
+        text-align: center;
+        width: 99.60%;   
+    } 
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.ContainerTwo {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    justify-content: center;
+
+    .Card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border: solid black;
+        background-color: #FFF;
+        color: black;
+        border-radius: 20PX;
+        margin: 20PX;
+        width: 200PX;
+
+        .Buton{
+            margin: 10PX;
+            background-color: #730202;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .Img1{
+            padding: 0;
+        }
+
+        .Parrafo{
+            height: 200px;
+
+            .description{
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+img{
+    width: 100px;
+    height: 110px;
+    padding-top: 10px;
+}
