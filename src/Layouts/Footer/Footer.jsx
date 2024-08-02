@@ -9,9 +9,9 @@ export const Footer = () => {
     return(
         <>
             <div className="Footer">
-            <FaFacebook></FaFacebook>
-            <IoLogoWhatsapp></IoLogoWhatsapp>
-            <FaSquareInstagram></FaSquareInstagram>
+            <FaFacebook className="facebook"></FaFacebook>
+            <IoLogoWhatsapp className="whatsApp"></IoLogoWhatsapp>
+            <FaSquareInstagram className="insta"></FaSquareInstagram>
             </div>
         </>
     )

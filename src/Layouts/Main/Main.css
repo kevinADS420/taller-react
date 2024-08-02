@@ -26,7 +26,6 @@
 .ContainerTwo {
     display: flex;
     flex-wrap: wrap;
-    border: solid black;
     justify-content: center;
 
     .Card{

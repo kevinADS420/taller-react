@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css'
 import { Logo } from "../../Components/Logo/Logo";
+import { Link } from 'react-router-dom'
 
  
 export const Header = () => {
@@ -12,13 +13,14 @@ export const Header = () => {
                 </div>
                 <div className="Menu">
                     <ul className="menu">
-                        <lo>Inicio</lo>
-                        <lo>Nuestra Compañia</lo>
-                        <lo>Nuevos Valores</lo>
-                        <lo>Contáctanos</lo>
+                        <Link className="menu" to='/'>Inicio</Link>
+                        <Link className="menu" to='/Ourcompany'>Nuestra compañia</Link>
+                        <Link className="menu" to='/Ourvalues'>Nuestros valores </Link>
+                        <Link className="menu" to='/NotFound'>Contáctanos</Link>
                     </ul>
                 </div>
             </div>
         </>
     )
 }
+

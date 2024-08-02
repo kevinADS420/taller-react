@@ -11,6 +11,7 @@
         height: 50px;
         width: 50px;
         border-radius: 100%;
+        margin: 5px;
     }
 
     .Menu{
@@ -19,7 +20,9 @@
         
         .menu{
             display: flex;
+            color: black;
             gap: 20px;
+            text-decoration: none;
         }
     }
 }

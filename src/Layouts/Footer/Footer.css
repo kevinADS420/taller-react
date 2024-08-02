@@ -7,3 +7,20 @@
     padding: 10px;
 }
 
+.facebook{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.whatsApp{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.insta{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
