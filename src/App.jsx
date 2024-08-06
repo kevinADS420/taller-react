@@ -5,6 +5,7 @@ import { Header } from './Layouts/Header/Headerr'
 import { Footer } from "./Layouts/Footer/Footer"
 import { Ourvalues } from './Layouts/Our values/Ourvalues'
 import { NotFound } from "./Layouts/NotFound/NotFound"
+import { Count } from "./Layouts/Count/Count"
 
 
 
@@ -16,8 +17,9 @@ function App() {
       <Routes>
         <Route  path="/" element={<Home/>}/>
         <Route  path="/Ourcompany" element={<Ourcompany/>}/>
-        <Route path="/Ourvalues" element={<Ourvalues/>}></Route>
-        <Route path="/NotFound" element={<NotFound/>}> </Route>
+        <Route path="/Ourvalues" element={<Ourvalues/>}/>
+        <Route path="/NotFound" element={<NotFound/>}/> 
+        <Route path="/Count" element={<Count/>}/> 
       </Routes>
       <Footer/>
     </div>

@@ -17,6 +17,7 @@ export const Header = () => {
                         <Link className="menu" to='/Ourcompany'>Nuestra compañia</Link>
                         <Link className="menu" to='/Ourvalues'>Nuestros valores </Link>
                         <Link className="menu" to='/NotFound'>Contáctanos</Link>
+                        <Link className="menu" to='/Count'>Count</Link>
                     </ul>
                 </div>
             </div>
